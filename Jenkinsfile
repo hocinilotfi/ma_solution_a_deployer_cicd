@@ -8,7 +8,7 @@ pipeline{
         }
         stage('deploy'){
             steps{
-                echo "deploy in progress"
+                echo "deploy to intgration in progress"
             }
         }
 

@@ -4,6 +4,7 @@ pipeline{
         stage('build'){
             steps{
                 echo "building in progress"
+                sh "cat index.html"
             }
         }
         stage('deploy'){
